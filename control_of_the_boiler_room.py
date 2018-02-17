@@ -64,7 +64,7 @@ def turn_off_the_heating():
 
 def the_state_of_the_heating_system():
  date_and_time.read_time()
- if GPIO.input(8)==0:                           #jesliže zjišťujeme stav pinu, musí zde být GPIO.input, i když je 8 pin výstupní
+ if GPIO.input(8)==0:
   print ("Čerpadlo je zapnuto.")
  else:
   print ("Čerpadlo je vypnuto.")
