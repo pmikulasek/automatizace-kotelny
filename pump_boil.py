@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 import RPi.GPIO as GPIO
+import time
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
