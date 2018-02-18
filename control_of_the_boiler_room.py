@@ -51,6 +51,7 @@ def switch_on_the_heating_without_a_pump():
  global x
  x=100
  wait()
+ pump.off()
  three_way_valve.open(x)
  the_state_of_the_heating_system()
 
